@@ -1,5 +1,5 @@
-const morgan = require('morgan');
 const helmet = require('helmet');
+const morgan = require('morgan');
 const Joi = require('joi');
 const express = require('express');
 const logger = require('./logger');
